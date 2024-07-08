@@ -1,0 +1,14 @@
+{
+  "name": "Winston",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/app",
+    "start:dev": " nodemon src/app.js"
+  },
+  "dependencies": {
+    "nodemon": "^3.1.4",
+    "winston": "^3.13.0"
+  }  
+}
